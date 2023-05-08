@@ -10,20 +10,21 @@ p='\033[1;35m'
 reset='\033[0m'
 echo " "
 echo " $red
-    ██╗  ██╗ █████╗ ██╗     ██╗███╗   ███╗██╗   ██╗██╗  ██╗
-    ██║ ██╔╝██╔══██╗██║     ██║████╗ ████║██║   ██║╚██╗██╔╝
-    █████╔╝ ███████║██║     ██║██╔████╔██║██║   ██║ ╚███╔╝
-    ██╔═██╗ ██╔══██║██║     ██║██║╚██╔╝██║██║   ██║ ██╔██╗
-    ██║  ██╗██║  ██║███████╗██║██║ ╚═╝ ██║╚██████╔╝██╔╝ ██╗
-    ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═╝
-                                                       v 1.0 "
+                        ██
+                        
+██   ██  █████  ██      ██ ██████  ██    ██ ███   ██ ████████  █████
+██  ██  ██   ██ ██      ██ ██   ██ ██    ██ ████  ██    ██    ██   ██
+█████   ███████ ██      ██ ██████  ██    ██ ██ ██ ██    ██    ██   ██
+██  ██  ██   ██ ██      ██ ██   ██ ██    ██ ██  ████    ██    ██   ██
+██   ██ ██   ██ ███████ ██ ██████   ██████  ██   ███    ██     █████
+                                                                v 1.0 "
 
 echo "$yellow                +~+~+~+~+~+~+~+~+~+~+~+~+~ "
 echo " "
-echo "$green                   <--[Coded by N17R0]-->"
+echo "$green                   <--[Coded by x1byte]-->"
 
 echo "$cyan                ************************** "
-echo "$green              <~~(YOUTUBE- Noob Hackers)~~>"
+echo "$green              <~~(YOUTUBE- x1byte)~~>"
 echo " "
 echo "$yellow                +~+~+~+~+~+~+~+~+~+~+~+~+~ "
 sleep 3.50
@@ -83,11 +84,16 @@ echo " "
 cd $HOME
 
 apt-get update -y
-pkg install wget -y
-pkg install python -y
-pkg install python2 -y
-pkg install openssh -y
-pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh && bash kali.sh
+sudo apt install wget -y
+sudo apt install python -y
+sudo apt install python2 -y
+sudo apt install openssh -y
+sudo apt install wget -y
+sudo apt install openssl-tool -y
+sudo apt install proot -y 
+hash -r
+wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh
+bash kali.sh
 
 ls
 
