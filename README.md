@@ -21,7 +21,7 @@
 * `sudo apt-get update -y`
 * `sudo apt-get upgrade -y`
 * `sudo apt install git -y`
-* `sudo apt install pip`
+* `sudo apt install pip -y`
 * `pip install lolcat`
 * `cd`
 * `git clone https://github.com/B0gad0/kalibunto`
